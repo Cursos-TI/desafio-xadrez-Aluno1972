@@ -8,15 +8,14 @@ int main(){
 
     // mover a torre 5 casa para a direita
     printf("Movimento da Torre. \n");       
-        for (int i = 0; i < Torre; i++) {
+    for (int i = 0; i < Torre; i++) {
         printf("Direita \n"); //Imprime a direção do movimento
-
     }
 
     // mover a torre 5 casa para a direita
     printf("Movimento do Bispo. \n");
     int i = 0;
-    while (i < Bispo) {
+        while (i < Bispo) {
         printf("Cima Direita\n"); //Imprime a direção do movimento
         i++;
     }
